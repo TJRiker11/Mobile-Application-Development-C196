@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="TJRiker.WGUScheduler">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="WGU Scheduler"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name="TJRiker.WGUScheduler.view.MainActivity"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="TJRiker.WGUScheduler.view.AllTermActivity"
+            android:launchMode="singleTop">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="TJRiker.WGUScheduler.view.MainActivity" />
+        </activity>
+        <activity android:name="TJRiker.WGUScheduler.view.AllCourseActivity"
+            android:launchMode="singleTop">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="TJRiker.WGUScheduler.view.MainActivity" />
+        </activity>
+        <activity android:name="TJRiker.WGUScheduler.view.ViewCourseByTermActivity"
+            android:launchMode="singleTop">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="TJRiker.WGUScheduler.view.MainActivity" />
+        </activity>
+        <activity android:name="TJRiker.WGUScheduler.view.AllAssessmentActivity"
+            android:launchMode="singleTop">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="TJRiker.WGUScheduler.view.MainActivity" />
+        </activity>
+        <activity android:name="TJRiker.WGUScheduler.view.ViewAssessmentByCourseActivity"
+            android:launchMode="singleTop">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="TJRiker.WGUScheduler.view.MainActivity" />
+        </activity>
+        <activity android:name="TJRiker.WGUScheduler.view.AddTermActivity"
+            android:launchMode="singleTop">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="TJRiker.WGUScheduler.view.MainActivity" />
+        </activity>
+        <activity android:name="TJRiker.WGUScheduler.view.ViewTermActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="TJRiker.WGUScheduler.view.AllTermActivity" />
+        </activity>
+        <activity android:name="TJRiker.WGUScheduler.view.AddCourseActivity"
+            android:launchMode="singleTop">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="TJRiker.WGUScheduler.view.ViewTermActivity" />
+        </activity>
+        <activity android:name="TJRiker.WGUScheduler.view.ViewCourseActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="TJRiker.WGUScheduler.view.ViewTermActivity" />
+        </activity>
+        <activity android:name="TJRiker.WGUScheduler.view.ViewAssessmentActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="TJRiker.WGUScheduler.view.ViewCourseActivity" />
+        </activity>
+        <activity android:name="TJRiker.WGUScheduler.view.AddAssessmentActivity"
+            android:launchMode="singleTop">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="TJRiker.WGUScheduler.view.ViewCourseActivity" />
+        </activity>
+
+        <receiver
+            android:name="TJRiker.WGUScheduler.view.AlarmReceiver"
+            android:enabled="true"
+            android:exported="false" >
+        </receiver>
+    </application>
+</manifest>

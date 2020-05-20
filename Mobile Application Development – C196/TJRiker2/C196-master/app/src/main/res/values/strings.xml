@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">WGU Calendar</string>
+    <string name="main_title">WGU</string>
+    <string name="add_term">Add Term</string>
+    <string name="edit_term">Edit Term</string>
+    <string name="delete_term">Delete Term</string>
+    <string name="all_term">View All Terms</string>
+    <string name="view_term">View Term</string>
+    <string name="add_course">Add Course</string>
+    <string name="edit_course">Edit Course</string>
+    <string name="delete_course">Delete Course</string>
+    <string name="all_course">View All Courses</string>
+    <string name="view_course">View Course</string>
+    <string name="add_assessment">Add Assessment</string>
+    <string name="edit_assessment">Edit Assessment</string>
+    <string name="delete_assessment">Delete Assessment</string>
+    <string name="all_assessment">View All Assessments</string>
+    <string name="view_assessment">View Assessment</string>
+    <string name="date_format">MM/dd/yy</string>
+    <string name="title">Title</string>
+    <string name="start">Start</string>
+    <string name="end">End</string>
+    <string name="due_date">Due Date</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="type">Type</string>
+    <string name="term">Term</string>
+    <string name="course">Course</string>
+    <string name="status">Status</string>
+    <string name="mentor_name">Mentor Name</string>
+    <string name="mentor_phone">Mentor Phone</string>
+    <string name="mentor_email">Mentor Email</string>
+    <string name="notes">Notes</string>
+    <string name="courses">Courses:</string>
+    <string name="assessments">Assessments:</string>
+    <string name="error_has_children_term">Cannot delete term</string>
+    <string name="error_has_children_term_message">Remove all courses before deleting term.</string>
+    <string name="error_has_children_course">Cannot delete course</string>
+    <string name="error_has_children_course_message">Remove all assessments before deleting course.</string>
+    <string name="confirm_delete">Delete entry</string>
+    <string name="confirm_delete_message">Are you sure you want to delete this entry?</string>
+    <string name="view_course_by_term">View Courses by Term</string>
+    <string name="view_assessment_by_course">View Assessments by Course</string>
+    <string name="view_notifications">View Notifications</string>
+    <string name="current_course">Current Courses</string>
+    <string name="no_current_course">"No Current Course!"</string>
+    <string name="current_term">Current Term</string>
+    <string name="no_current_term">No Current Term!</string>
+    <string name="preference_file">alerts_term.db</string>
+    <string name="term_start_remind">Notify when term starts</string>
+    <string name="term_end_remind">Notify when term ends</string>
+    <string name="course_start_remind">Notify when course starts</string>
+    <string name="course_end_remind">Notify when course ends</string>
+    <string name="assessment_due_remind">Notify when assessment due</string>
+    <string name="share_notes">Share Notes</string>
+
+    <string-array name="status_array">
+        <item>Plan to Take</item>
+        <item>In Progress</item>
+        <item>Completed</item>
+        <item>Dropped</item>
+    </string-array>
+
+    <string-array name="type_array">
+        <item>Objective</item>
+        <item>Performance</item>
+    </string-array>
+</resources>

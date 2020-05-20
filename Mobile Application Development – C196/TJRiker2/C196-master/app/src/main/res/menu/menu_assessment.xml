@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_edit_assessment"
+            android:title="@string/edit_assessment" />
+        <item
+            android:id="@+id/nav_delete_assessment"
+            android:title="@string/delete_assessment" />
+    </group>
+    <group
+        android:id="@+id/grpNotes"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_share_notes"
+            android:title="@string/share_notes" />
+    </group>
+</menu>
